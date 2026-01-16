@@ -32,7 +32,7 @@ tracing-subscriber = { version = "0.3.22", features = ["env-filter"] }
 test-log = { version = "0.2.19", features = ["trace"] }
 
 # Realtime API dependencies
-tokio-tungstenite = { version = "0.28", features = ["native-tls"] }
+tokio-tungstenite = { version = "0.28", features = ["__rustls-tls"] }
 futures-util = "0.3"
 bytes = "1.11"
 http = "1.4"
